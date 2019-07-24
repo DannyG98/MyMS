@@ -1,0 +1,288 @@
+DeeDee caused DISTANCE_HACK Distance Sq to monster: 459072.0 SID: 9001001 MID: 130101
+---------------------------------
+
+DeeDee caused DISTANCE_HACK Distance Sq to monster: 513409.0 SID: 9001001 MID: 100101
+---------------------------------
+
+DeeDee caused DISTANCE_HACK Distance Sq to monster: 487282.0 SID: 9001001 MID: 100101
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 19 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 21 MaxDMG: 12 SID: 2001005 MobID: 130101 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 20 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 20 MaxDMG: 12 SID: 2001005 MobID: 120100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 19 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 20 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 21 MaxDMG: 12 SID: 2001005 MobID: 1210102 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 19 MaxDMG: 12 SID: 2001005 MobID: 1210102 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 21 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 20 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 19 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 21 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 19 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 20 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 20 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 20 MaxDMG: 12 SID: 2001005 MobID: 1210102 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 20 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 19 MaxDMG: 12 SID: 2001005 MobID: 1210102 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 19 MaxDMG: 12 SID: 2001005 MobID: 1210102 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 19 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 20 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 19 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 19 MaxDMG: 12 SID: 2001005 MobID: 9420001 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 19 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 20 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 19 MaxDMG: 12 SID: 2001005 MobID: 210100 Map: The Field Up North of Ellinia (101010000)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 73 MaxDMG: 48 SID: 2001005 MobID: 1110101 Map: The Tree That Grew III (101010102)
+---------------------------------
+
+Thyme caused DAMAGE_HACK DMG: 73 MaxDMG: 48 SID: 2001005 MobID: 1110101 Map: The Tree That Grew III (101010102)
+---------------------------------
+
+DeeDee caused DISTANCE_HACK Distance Sq to monster: 488834.0 SID: 9001001 MID: 8190003
+---------------------------------
+
+DeeDee caused DISTANCE_HACK Distance Sq to monster: 459485.0 SID: 9001001 MID: 8190003
+---------------------------------
+
+DeeDee caused DISTANCE_HACK Distance Sq to monster: 552400.0 SID: 9001001 MID: 8190003
+---------------------------------
+
+DeeDee caused DISTANCE_HACK Distance Sq to monster: 474281.0 SID: 9001001 MID: 8190003
+---------------------------------
+
+DeeDee caused DISTANCE_HACK Distance Sq to monster: 512576.0 SID: 9001001 MID: 8190004
+---------------------------------
+
+DeeDee caused DISTANCE_HACK Distance Sq to monster: 211357.0 SID: 0 MID: 8800005
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 73581018 MaxDMG: 44138928 SID: 4121007 MobID: 8820003 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 99787150 MaxDMG: 44138928 SID: 4121007 MobID: 8820003 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 72282600 MaxDMG: 44138928 SID: 4121007 MobID: 8820003 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 127814556 MaxDMG: 44138928 SID: 4121007 MobID: 8820003 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 84111291 MaxDMG: 44138928 SID: 4121007 MobID: 8820004 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 73569301 MaxDMG: 44138928 SID: 4121007 MobID: 8820004 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 88344135 MaxDMG: 44138928 SID: 4121007 MobID: 8820004 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 104104852 MaxDMG: 44138928 SID: 4121007 MobID: 8820004 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 139354405 MaxDMG: 44138928 SID: 4121007 MobID: 8820004 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 140549276 MaxDMG: 44138928 SID: 4121007 MobID: 8820003 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 121994542 MaxDMG: 44138928 SID: 4121007 MobID: 8820003 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 74034233 MaxDMG: 44138928 SID: 4121007 MobID: 8820003 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 113319428 MaxDMG: 44138928 SID: 4121007 MobID: 8820004 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 69309964 MaxDMG: 44138928 SID: 4121007 MobID: 8820004 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 75342582 MaxDMG: 44138928 SID: 4121007 MobID: 8820004 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 76327749 MaxDMG: 44138928 SID: 4121007 MobID: 8820004 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 80830018 MaxDMG: 44138928 SID: 4121007 MobID: 8820004 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 112450421 MaxDMG: 44138928 SID: 4121007 MobID: 8820005 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 67550155 MaxDMG: 44138928 SID: 4121007 MobID: 8820005 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 70453445 MaxDMG: 44138928 SID: 4121007 MobID: 8820005 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 105039721 MaxDMG: 44138928 SID: 4121007 MobID: 8820005 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 124045028 MaxDMG: 44138928 SID: 4121007 MobID: 8820005 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 132032875 MaxDMG: 44138928 SID: 4121007 MobID: 8820003 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 74860827 MaxDMG: 44138928 SID: 4121007 MobID: 8820003 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 69137797 MaxDMG: 44138928 SID: 4121007 MobID: 8820003 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 136023193 MaxDMG: 44138928 SID: 4121007 MobID: 8820003 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 116084345 MaxDMG: 44138928 SID: 4121007 MobID: 8820003 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 125037503 MaxDMG: 44138928 SID: 4121007 MobID: 8820005 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 72383260 MaxDMG: 44138928 SID: 4121007 MobID: 8820005 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 76619955 MaxDMG: 44138928 SID: 4121007 MobID: 8820004 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 116325793 MaxDMG: 44138928 SID: 4121007 MobID: 8820004 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DISTANCE_HACK Distance Sq to monster: 662600.0 SID: 4121007 MID: 8820004
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 128352107 MaxDMG: 44138928 SID: 4121007 MobID: 8820004 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 71943128 MaxDMG: 44138928 SID: 4121007 MobID: 8820004 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 91642471 MaxDMG: 44138928 SID: 4121007 MobID: 8820006 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 121543421 MaxDMG: 44138928 SID: 4121007 MobID: 8820006 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 71079380 MaxDMG: 44138928 SID: 4121007 MobID: 8820006 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 71090967 MaxDMG: 44138928 SID: 4121007 MobID: 8820006 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 140161755 MaxDMG: 44138928 SID: 4121007 MobID: 8820006 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 87647765 MaxDMG: 44138928 SID: 4121007 MobID: 8820005 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 73830083 MaxDMG: 44138928 SID: 4121007 MobID: 8820005 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 71433828 MaxDMG: 44138928 SID: 4121007 MobID: 8820005 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 90624817 MaxDMG: 44138928 SID: 4121007 MobID: 8820003 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 103642490 MaxDMG: 44138928 SID: 4121007 MobID: 8820003 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 127923395 MaxDMG: 44138928 SID: 4121007 MobID: 8820003 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 72317746 MaxDMG: 44138928 SID: 4121007 MobID: 8820003 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DISTANCE_HACK Distance Sq to monster: 729320.0 SID: 4121007 MID: 8820003
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 128842995 MaxDMG: 44138928 SID: 4121007 MobID: 8820004 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DISTANCE_HACK Distance Sq to monster: 649640.0 SID: 4121007 MID: 8820004
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 66854431 MaxDMG: 44138928 SID: 4121007 MobID: 8820004 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 128027548 MaxDMG: 44138928 SID: 4121007 MobID: 8820004 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DISTANCE_HACK Distance Sq to monster: 643208.0 SID: 4121007 MID: 8820004
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 71772074 MaxDMG: 44138928 SID: 4121007 MobID: 8820006 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 101419407 MaxDMG: 44138928 SID: 4121007 MobID: 8820006 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 70094710 MaxDMG: 44138928 SID: 4121007 MobID: 8820001 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 103517070 MaxDMG: 44138928 SID: 4121007 MobID: 8820007 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 127495776 MaxDMG: 44138928 SID: 4121007 MobID: 8820007 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 129845345 MaxDMG: 44138928 SID: 4121007 MobID: 8820007 Map: Twilight of Gods (270050100)
+---------------------------------
+
+DeeDee caused DAMAGE_HACK DMG: 106550510 MaxDMG: 44138928 SID: 4121007 MobID: 8820007 Map: Twilight of Gods (270050100)
+---------------------------------
+
