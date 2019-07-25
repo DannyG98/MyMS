@@ -44,7 +44,9 @@ public class BuffMeCommand extends Command {
         
         // Power Stance
         SkillFactory.getSkill(1121002).getEffect(SkillFactory.getSkill(1121002).getMaxLevel()).applyTo(player);
-
+        // Speed Infusion & SE
+        SkillFactory.getSkill(5121008).getEffect(SkillFactory.getSkill(5121008).getMaxLevel()).applyTo(player);
+        SkillFactory.getSkill(3121002).getEffect(SkillFactory.getSkill(3121002).getMaxLevel()).applyTo(player);
         
         player.healHpMp();
     }
