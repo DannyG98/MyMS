@@ -140,7 +140,7 @@ public class ServerConstants {
     public static final boolean USE_WHOLE_SERVER_RANKING = false;   //Enables a ranking pool made from every character registered on the server for the "ranks" command, instead of separated by worlds.
     
     //Server Rates And Experience
-    public static final int EXP_RATE = 10;                          //NOTE: World-specific rates within "world.ini" OVERRIDES the default rates from here.
+    public static final int EXP_RATE = 1;                          //NOTE: World-specific rates within "world.ini" OVERRIDES the default rates from here.
     public static final int MESO_RATE = 10;
     public static final int DROP_RATE = 1;
     public static final int BOSS_DROP_RATE = 10;                    //NOTE: Boss drop rate OVERRIDES common drop rate, for bosses-only.
@@ -148,7 +148,7 @@ public class ServerConstants {
     public static final int FISHING_RATE = 10;                      //Multiplier for success likelihood on meso thrown during fishing.
     public static final int TRAVEL_RATE = 50;                       //Means of transportation rides/departs using 1/N of the default time.
     
-    public static final double EQUIP_EXP_RATE = 0.25;                //Rate for equipment exp gain, grows linearly. Set 1.0 for default (about 100~200 same-level range mobs killed to pass equip from level 1 to 2).
+    public static final double EQUIP_EXP_RATE = 0.1;                //Rate for equipment exp gain, grows linearly. Set 1.0 for default (about 100~200 same-level range mobs killed to pass equip from level 1 to 2).
     public static final double PQ_BONUS_EXP_RATE = 0.5;             //Rate for the PQ exp reward.
     
     public static final byte EXP_SPLIT_LEVEL_INTERVAL = 5;          //Non-contributing players must be within N level between the mob to receive EXP.
