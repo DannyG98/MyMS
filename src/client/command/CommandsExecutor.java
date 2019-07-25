@@ -184,6 +184,7 @@ public class CommandsExecutor {
         levelCommandsCursor = new Pair<>((List<String>) new ArrayList<String>(), (List<String>) new ArrayList<String>());
         
         addCommand(new String[]{"help", "commands"}, HelpCommand.class);
+        addCommand("goto", GotoCommand.class);
         addCommand("droplimit", DropLimitCommand.class);
         addCommand("time", TimeCommand.class);
         addCommand("credits", StaffCommand.class);
@@ -222,7 +223,7 @@ public class CommandsExecutor {
         addCommand("whatdropsfrom", 1, WhatDropsFromCommand.class);
         addCommand("whodrops", 1, WhoDropsCommand.class);
         addCommand("buffme", 1, BuffMeCommand.class);
-        addCommand("goto", 1, GotoCommand.class);
+//        addCommand("goto", 1, GotoCommand.class);
         
         commandsNameDesc.add(levelCommandsCursor);
     }
