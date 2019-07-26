@@ -559,7 +559,7 @@ public class Equip extends Item {
     
     public synchronized void gainItemExp(MapleClient c, int gain) {  // Ronan's Equip Exp gain method
         MapleItemInformationProvider ii = MapleItemInformationProvider.getInstance();
-        if(!ii.isUpgradeable(this.getItemId())) {
+        if(!ii.isUpgradeable(/**this.getItemId()**/this)) {
             return;
         }
         
@@ -610,7 +610,7 @@ public class Equip extends Item {
     
     public String showEquipFeatures(MapleClient c) {
         MapleItemInformationProvider ii = MapleItemInformationProvider.getInstance();
-        if(!ii.isUpgradeable(this.getItemId())) return "";
+        if(!ii.isUpgradeable(/**this.getItemId()**/this)) return "";
         
         String eqpName = ii.getName(getItemId());
         String eqpInfo = reachedMaxLevel() ? " #e#rMAX LEVEL#k#n" : (" EXP: #e#b" + (int)itemExp + "#k#n / " + ExpTable.getEquipExpNeededForLevel(itemLevel));

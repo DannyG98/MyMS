@@ -9181,7 +9181,8 @@ public class MapleCharacter extends AbstractMapleCharacterObject {
         List<Equip> list = new LinkedList<>();
         
         for (Item item : getInventory(MapleInventoryType.EQUIPPED)) {
-            if (ii.isUpgradeable(item.getItemId())) {
+//            if (ii.isUpgradeable(item.getItemId())) {
+              if (ii.isUpgradeable(item)) {
                 list.add((Equip) item);
             }
         }
@@ -9292,7 +9293,7 @@ public class MapleCharacter extends AbstractMapleCharacterObject {
 
     private void standaloneMerge(Map<StatUpgrade, Float> statups, MapleClient c, MapleInventoryType type, short slot, Item item) {
         short quantity;
-        if (item == null || (quantity = item.getQuantity()) < 1 || ii.isCash(item.getItemId()) || !ii.isUpgradeable(item.getItemId()) || hasMergeFlag(item)){
+        if (item == null || (quantity = item.getQuantity()) < 1 || ii.isCash(item.getItemId()) || !ii.isUpgradeable(/**item.getItemId()**/item) || hasMergeFlag(item)){
             return;
         }
         

@@ -1605,6 +1605,15 @@ public class MapleItemInformationProvider {
                 eq.getAvoid() > 0 || eq.getSpeed() > 0 || eq.getJump() > 0 || eq.getHp() > 0 || eq.getMp() > 0);
     }
     
+    // More dynamic isUpgradeable
+    public boolean isUpgradeable(Item item) {
+        Equip eq = (Equip) item;
+        
+        return (eq.getUpgradeSlots() > 0 || eq.getStr() > 0 || eq.getDex() > 0 || eq.getInt() > 0 || eq.getLuk() > 0 ||
+                eq.getWatk() > 0 || eq.getMatk() > 0 || eq.getWdef() > 0 || eq.getMdef() > 0 || eq.getAcc() > 0 ||
+                eq.getAvoid() > 0 || eq.getSpeed() > 0 || eq.getJump() > 0 || eq.getHp() > 0 || eq.getMp() > 0);
+    }
+    
     public boolean isUnmerchable(int itemId) {
         if(ServerConstants.USE_ENFORCE_UNMERCHABLE_CASH && isCash(itemId)) {
             return true;
