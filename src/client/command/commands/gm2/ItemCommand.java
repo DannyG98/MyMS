@@ -82,7 +82,7 @@ public class ItemCommand extends Command {
                 flag |= ItemConstants.ACCOUNT_SHARING;
                 flag |= ItemConstants.UNTRADEABLE;
         }
-        
+                
         MapleInventoryManipulator.addById(c, itemId, quantity, player.getName(), -1, flag, -1);
     }
 }

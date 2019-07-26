@@ -399,6 +399,9 @@ public class CommandsExecutor {
         addCommand("addworld", 6, ServerAddWorldCommand.class);
         addCommand("removechannel", 6, ServerRemoveChannelCommand.class);
         addCommand("removeworld", 6, ServerRemoveWorldCommand.class);
+        addCommand("unsigneditem", 6, UnsignedItemCommand.class);
+        addCommand("unsigneddrop", 6, UnsignedItemDropCommand.class);
+        addCommand("cseteqstat", 6, CustomStatCommand.class);
         
         commandsNameDesc.add(levelCommandsCursor);
     }

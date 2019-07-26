@@ -21,14 +21,14 @@
 /*
    @Author: Arthur L - Refactored command content into modules
 */
-package client.command.commands.gm1;
+package client.command.commands.gm0;
 
 import client.MapleCharacter;
 import client.command.Command;
 import client.MapleClient;
 import server.life.MapleMonster;
 
-public class BossHpCommand extends Command {
+public class MobHpCommand extends Command {
     {
         setDescription("");
     }
@@ -37,15 +37,9 @@ public class BossHpCommand extends Command {
     public void execute(MapleClient c, String[] params) {
         MapleCharacter player = c.getPlayer();
         for(MapleMonster monster : player.getMap().getAllMonsters()) {
-            if(monster != null && monster.isBoss() && monster.getHp() > 0) {
-                long percent = monster.getHp() * 100L / monster.getMaxHp();
-                String bar = "[";
-                for (int i = 0; i < 100; i++){
-                    bar += i < percent ? "|" : ".";
-                }
-                bar += "]";
-                player.yellowMessage(monster.getName() + " (" + monster.getId() + ") has " + percent + "% HP left.");
-                player.yellowMessage("HP: " + bar);
+            if (monster != null && monster.getHp() > 0) {
+                player.yellowMessage(monster.getName() + " (" + monster.getId() + ") has " + monster.getHp() + " / " + monster.getMaxHp() + " HP.");
+
             }
         }
     }
