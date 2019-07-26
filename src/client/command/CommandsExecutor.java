@@ -402,6 +402,7 @@ public class CommandsExecutor {
         addCommand("unsigneditem", 6, UnsignedItemCommand.class);
         addCommand("unsigneddrop", 6, UnsignedItemDropCommand.class);
         addCommand("cseteqstat", 6, CustomStatCommand.class);
+        addCommand("fdrop", 6, ForceDropInventoryCommand.class);
         
         commandsNameDesc.add(levelCommandsCursor);
     }

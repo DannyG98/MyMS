@@ -82,6 +82,14 @@ public class CustomStatCommand extends Command {
                 eq.setStr(newStat);
             else if (statToChange.equalsIgnoreCase("luk"))
                 eq.setLuk(newStat);
+            else if (statToChange.equalsIgnoreCase("lv")) {
+                eq.setItemExp(0);
+                eq.setItemLevel((byte) newStat);
+            }
+            else if (statToChange.equalsIgnoreCase("upgrades"))
+                eq.setUpgradeSlots((byte) newStat);
+            else if (statToChange.equalsIgnoreCase("vicious"))
+                eq.setVicious(newStat);
             else if (statToChange.equalsIgnoreCase("all")) {
                 eq.setWdef(newStat);
                 eq.setAcc(newStat);
@@ -100,7 +108,7 @@ public class CustomStatCommand extends Command {
             }
             else {
                 player.yellowMessage("Invalid Stat Type. "
-                        + "Available: all|wdef|acc|avoid|jump|matk|mdef|hp|mp|spd|watk|dex|int|str|luk");
+                        + "Available: all|wdef|acc|avoid|jump|matk|mdef|hp|mp|spd|watk|dex|int|str|luk|lv|upgrades|vicious");
                 return;
             }
             
