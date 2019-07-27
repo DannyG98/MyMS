@@ -696,6 +696,7 @@ public class MapleMonster extends AbstractLoadedMapleLife {
         return (int) exp;
     }
     
+    //TODO:
     private void giveExpToCharacter(MapleCharacter attacker, Float personalExp, Float partyExp, boolean white, boolean hasPartySharers) {
         if (attacker.isAlive()) {
             if (personalExp != null) {
@@ -721,6 +722,18 @@ public class MapleMonster extends AbstractLoadedMapleLife {
             }
             
             int _partyExp = expValueToInteger(partyExp);
+            
+            // If gain nx from kill is enabled, we give nx
+            if (ServerConstants.GAIN_NX_FROM_KILL == true) {
+                int nxGained = (int) (this.getMaxHp() * ServerConstants.GAIN_NX_RATE);
+                
+                nxGained = Math.max(nxGained, 1);
+                if (ServerConstants.GAIN_NX_CAP != 0) {
+                    nxGained = Math.min(nxGained, ServerConstants.GAIN_NX_CAP);
+                }
+                attacker.getClient().announce(MaplePacketCreator.earnTitleMessage("Gained " + nxGained + " NX"));
+                attacker.getCashShop().gainCash(2, nxGained);
+            }
             
             attacker.gainExp(_personalExp, _partyExp, true, false, white);
             attacker.increaseEquipExp(_personalExp);

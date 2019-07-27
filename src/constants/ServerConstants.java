@@ -151,8 +151,8 @@ public class ServerConstants {
     public static final double EQUIP_EXP_RATE = 0.1;                //Rate for equipment exp gain, grows linearly. Set 1.0 for default (about 100~200 same-level range mobs killed to pass equip from level 1 to 2).
     public static final double PQ_BONUS_EXP_RATE = 0.5;             //Rate for the PQ exp reward.
     
-    public static final byte EXP_SPLIT_LEVEL_INTERVAL = 5;          //Non-contributing players must be within N level between the mob to receive EXP.
-    public static final byte EXP_SPLIT_LEECH_INTERVAL = 5;          //Non-contributing players must be within N level between any contributing party member to receive EXP.
+    public static final byte EXP_SPLIT_LEVEL_INTERVAL = 40;          //Non-contributing players must be within N level between the mob to receive EXP.
+    public static final byte EXP_SPLIT_LEECH_INTERVAL = 40;          //Non-contributing players must be within N level between any contributing party member to receive EXP.
     public static final float EXP_SPLIT_MVP_MOD = 0.2f;
     public static final float EXP_SPLIT_COMMON_MOD = 0.8f;
     public static final float PARTY_BONUS_EXP_RATE = 1.0f;          //Rate for the party exp bonus reward.
@@ -189,13 +189,19 @@ public class ServerConstants {
     public static final int MOB_STATUS_AGGRO_INTERVAL = 5000;   //Interval in milliseconds between aggro logistics update.
     
     //Some Gameplay Enhancing Configurations
+    //NX Farming Configuration
+    public static final boolean GAIN_NX_FROM_KILL = true;           // Toggles whether you can gain nx from killing a monster
+    public static final int     GAIN_NX_CAP = 10000;                 // Sets a cap of the max nx gain. Set to 0 for no cap
+    public static final double  GAIN_NX_RATE = 0.001;                // What % of the mob's HP does attacker gain
+    public static final double  GAIN_NX_LEECHER = 0.05;             // What % of the mob's HP does leecher gain
+    
     //Scroll Configuration
     public static final boolean USE_PERFECT_GM_SCROLL = true;   //Scrolls from GMs never uses up slots nor fails.
     public static final boolean USE_PERFECT_SCROLLING = false;   //Scrolls doesn't use slots upon failure.
     public static final boolean USE_ENHANCED_CHSCROLL = true;   //Equips even more powerful with chaos upgrade.
     public static final boolean USE_ENHANCED_CRAFTING = true;   //Apply chaos scroll on every equip crafted.
     public static final boolean USE_ENHANCED_CLNSLATE = false;   //Clean slates can be applied to recover successfully used slots as well.
-    public static final int SCROLL_CHANCE_RATE = 10;            //Number of rolls for success on a scroll, set 1 for default.
+    public static final int SCROLL_CHANCE_RATE = 1;            //Number of rolls for success on a scroll, set 1 for default.
     public static final int CHSCROLL_STAT_RATE = 3;             //Number of rolls of stat upgrade on a successfully applied chaos scroll, set 1 for default.
     public static final int CHSCROLL_STAT_RANGE = 6;            //Stat upgrade range (-N, N) on chaos scrolls.
     
