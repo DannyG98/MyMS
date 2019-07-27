@@ -83,7 +83,7 @@ public class ServerConstants {
     public static final boolean USE_AUTOBAN = false;                //Commands the server to detect infractors automatically.
     public static final boolean USE_AUTOBAN_LOG = true;             //Log autoban related messages. Still logs even with USE_AUTOBAN disabled.
     public static final boolean USE_AUTOSAVE = true;                //Enables server autosaving feature (saves characters to DB each 1 hour).
-    public static final boolean USE_SERVER_AUTOASSIGNER = true;     //HeavenMS-builtin autoassigner, uses algorithm based on distributing AP accordingly with required secondary stat on equipments.
+    public static final boolean USE_SERVER_AUTOASSIGNER = false;     //HeavenMS-builtin autoassigner, uses algorithm based on distributing AP accordingly with required secondary stat on equipments.
     public static final boolean USE_REFRESH_RANK_MOVE = true;
     public static final boolean USE_ENFORCE_ADMIN_ACCOUNT = false;  //Forces accounts having GM characters to be treated as a "GM account" by the client (localhost). Some of the GM account perks is the ability to FLY, but unable to TRADE.
     public static final boolean USE_ENFORCE_NOVICE_EXPRATE = false; //Hardsets experience rate 1x for beginners level 10 or under. Ideal for roaming on novice areas without caring too much about losing some stats.
@@ -117,7 +117,7 @@ public class ServerConstants {
     public static final boolean USE_OLD_GMS_STYLED_PQ_NPCS = true;   //Enables PQ NPCs with similar behaviour to old GMS style, that skips info about the PQs and immediately tries to register the party in.
     public static final boolean USE_ENABLE_SOLO_EXPEDITIONS = true;  //Enables start expeditions with any number of players. This will also bypass all the Zakum prequest.
     public static final boolean USE_ENABLE_DAILY_EXPEDITIONS = false;//Enables daily entry limitations in expeditions.
-    public static final boolean USE_ENABLE_RECALL_EVENT = false;      //Enables a disconnected player to reaccess the last event instance they were in before logging out. Recall only works if the event isn't cleared or disposed yet. Suggestion thanks to Alisson (Goukken).
+    public static final boolean USE_ENABLE_RECALL_EVENT = true;      //Enables a disconnected player to reaccess the last event instance they were in before logging out. Recall only works if the event isn't cleared or disposed yet. Suggestion thanks to Alisson (Goukken).
     
     //Announcement Configuration
     public static final boolean USE_ANNOUNCE_SHOPITEMSOLD = false;  //Automatic message sent to owner when an item from the Player Shop or Hired Merchant is sold.
@@ -191,8 +191,10 @@ public class ServerConstants {
     //Some Gameplay Enhancing Configurations
     //NX Farming Configuration
     public static final boolean GAIN_NX_FROM_KILL = true;           // Toggles whether you can gain nx from killing a monster
-    public static final int     GAIN_NX_CAP = 10000;                 // Sets a cap of the max nx gain. Set to 0 for no cap
-    public static final double  GAIN_NX_RATE = 0.001;                // What % of the mob's HP does attacker gain
+    public static final int     GAIN_NX_CAP = 0;                 // Sets a cap of the max nx gain. Set to 0 for no cap
+    public static final double  GAIN_NX_RATE = 0.0005;                // What % of the mob's HP does attacker gain
+    public static final double  GAIN_NX_RATE_BOSS = 0.00025;          // NX Gain rate for bosses
+    public static final double  GAIN_NX_CHANCE = 0.5;               // Chance to gain NX from killing regular mobs
     public static final double  GAIN_NX_LEECHER = 0.05;             // What % of the mob's HP does leecher gain
     
     //Scroll Configuration

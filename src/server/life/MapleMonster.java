@@ -725,20 +725,29 @@ public class MapleMonster extends AbstractLoadedMapleLife {
             
             // If gain nx from kill is enabled, we give nx
             if (ServerConstants.GAIN_NX_FROM_KILL == true) {
-                int nxGained = (int) (this.getMaxHp() * ServerConstants.GAIN_NX_RATE);
-                
-                nxGained = Math.max(nxGained, 1);
-                if (ServerConstants.GAIN_NX_CAP != 0) {
-                    nxGained = Math.min(nxGained, ServerConstants.GAIN_NX_CAP);
+                if(this.isBoss()) {
+                    gainNXFromKill(attacker, ServerConstants.GAIN_NX_RATE_BOSS);
                 }
-                attacker.getClient().announce(MaplePacketCreator.earnTitleMessage("Gained " + nxGained + " NX"));
-                attacker.getCashShop().gainCash(2, nxGained);
+                else {
+                    if (Math.random() <= ServerConstants.GAIN_NX_CHANCE) gainNXFromKill(attacker, ServerConstants.GAIN_NX_RATE);
+                }
             }
             
             attacker.gainExp(_personalExp, _partyExp, true, false, white);
             attacker.increaseEquipExp(_personalExp);
             attacker.updateQuestMobCount(getId());
         }
+    }
+    
+    private void gainNXFromKill(MapleCharacter attacker, double rate) {
+        int nxGained = (int) (this.getMaxHp() * rate);
+
+                    nxGained = Math.max(nxGained, 1);
+                    if (ServerConstants.GAIN_NX_CAP != 0) {
+                        nxGained = Math.min(nxGained, ServerConstants.GAIN_NX_CAP);
+                    }
+                    attacker.getClient().announce(MaplePacketCreator.earnTitleMessage("Gained " + nxGained + " NX"));
+                    attacker.getCashShop().gainCash(2, nxGained);
     }
     
     public List<MonsterDropEntry> retrieveRelevantDrops() {
