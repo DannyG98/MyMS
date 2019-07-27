@@ -26,6 +26,7 @@ package client.command.commands.gm3;
 import client.command.Command;
 import client.MapleClient;
 import client.MapleCharacter;
+import tools.MaplePacketCreator;
 
 public class GiveNxCommand extends Command {
     {
@@ -75,6 +76,7 @@ public class GiveNxCommand extends Command {
         MapleCharacter victim = c.getWorldServer().getPlayerStorage().getCharacterByName(recv);
         if (victim != null) {
             victim.getCashShop().gainCash(type, value);
+            victim.getClient().announce(MaplePacketCreator.earnTitleMessage("Gained " + value + " NX"));
             player.message(typeStr.toUpperCase() + " given.");
         } else {
             player.message("Player '" + recv + "' could not be found.");
