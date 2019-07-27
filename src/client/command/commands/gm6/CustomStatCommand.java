@@ -39,7 +39,7 @@ public class CustomStatCommand extends Command {
     @Override
     public void execute(MapleClient c, String[] params) {
         MapleCharacter player = c.getPlayer();
-        if (params.length < 1) {
+        if (params.length < 2) {
             player.yellowMessage("Syntax: !cseteqstat <stat> <stat value>");
             return;
         }
